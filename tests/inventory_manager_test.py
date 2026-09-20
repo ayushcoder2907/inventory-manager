@@ -31,11 +31,11 @@ def test_quantity_type_error():
         is_valid_quantity("10")
 
 
-# def test_apply_discount():
-#     """Test applying a discount."""
-#     total = 1000
-#     percentage = 10
-#
-#     result = apply_discount(total, percentage)
-#
-#     assert result == 900
+def test_apply_discount():
+    """Test applying a discount."""
+    total = 1000
+    percentage = 10
+
+    result = apply_discount(total, percentage)
+
+    assert result == 950
